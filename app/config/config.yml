@@ -58,3 +58,14 @@ swiftmailer:
     username:  %mailer_user%
     password:  %mailer_password%
     spool:     { type: memory }
+
+stof_doctrine_extensions:
+    orm:
+        default:
+            tree: true
+
+symfony_cmf_routing_extra:
+    chain:
+        routers_by_id:
+            koala_content.dynamic_router: 200
+            router.default: 100
