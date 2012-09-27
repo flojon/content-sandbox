@@ -1,5 +1,5 @@
 {
-    "hash": "830033db99ca9bdb5d27c10e1e8f1448",
+    "hash": "bdf1332d67804ecf55fca8d8005a6dc4",
     "packages": [
         {
             "name": "doctrine/common",
@@ -18,7 +18,7 @@
             "require": {
                 "php": ">=5.3.2"
             },
-            "time": "2012-09-20 01:55:18",
+            "time": "2012-09-20 03:55:18",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -87,7 +87,7 @@
                 "php": ">=5.3.2",
                 "doctrine/common": "2.3.*"
             },
-            "time": "2012-09-20 01:56:37",
+            "time": "2012-09-20 03:56:37",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -160,7 +160,7 @@
             "suggest": {
                 "doctrine/orm": "The Doctrine ORM integration is optional in the bundle."
             },
-            "time": "2012-09-07 17:18:21",
+            "time": "2012-09-07 19:18:21",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -222,7 +222,7 @@
             "suggest": {
                 "symfony/yaml": "If you want to use YAML Metadata Mapping Driver"
             },
-            "time": "2012-09-20 02:03:34",
+            "time": "2012-09-20 04:03:34",
             "bin": [
                 "bin/doctrine",
                 "bin/doctrine.php"
@@ -269,17 +269,51 @@
             ]
         },
         {
+            "name": "friendsofsymfony/jsrouting-bundle",
+            "version": "dev-master",
+            "target-dir": "FOS/JsRoutingBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfSymfony/FOSJsRoutingBundle",
+                "reference": "f1a19530756d9614e5ab58a509587b1dd0f3f826"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/FriendsOfSymfony/FOSJsRoutingBundle/zipball/f1a19530756d9614e5ab58a509587b1dd0f3f826",
+                "reference": "f1a19530756d9614e5ab58a509587b1dd0f3f826",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/framework-bundle": ">=2.0,<2.2-dev",
+                "symfony/serializer": ">=2.0,<2.2-dev"
+            },
+            "time": "1346400455",
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "FOS\\JsRoutingBundle": ""
+                }
+            }
+        },
+        {
             "name": "gedmo/doctrine-extensions",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git://github.com/l3pp4rd/DoctrineExtensions.git",
-                "reference": "c52b23174a74010beed6e24b543f7fb8249abe93"
+                "reference": "4e8a3a920eedaba4e76c26a92347e9b47bb7ffdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/l3pp4rd/DoctrineExtensions/zipball/c52b23174a74010beed6e24b543f7fb8249abe93",
-                "reference": "c52b23174a74010beed6e24b543f7fb8249abe93",
+                "url": "https://github.com/l3pp4rd/DoctrineExtensions/zipball/4e8a3a920eedaba4e76c26a92347e9b47bb7ffdf",
+                "reference": "4e8a3a920eedaba4e76c26a92347e9b47bb7ffdf",
                 "shasum": ""
             },
             "require": {
@@ -290,7 +324,7 @@
                 "doctrine/orm": ">=2.1",
                 "doctrine/mongodb-odm": "*"
             },
-            "time": "1347664039",
+            "time": "1346486653",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -302,31 +336,7 @@
                 "psr-0": {
                     "Gedmo": "lib/"
                 }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Gediminas Morkevicius",
-                    "email": "gediminas.morkevicius@gmail"
-                }
-            ],
-            "description": "Doctrine2 behavioral extensions",
-            "homepage": "http://gediminasm.org/",
-            "keywords": [
-                "tree",
-                "behaviors",
-                "doctrine2",
-                "extensions",
-                "gedmo",
-                "sluggable",
-                "loggable",
-                "translatable",
-                "nestedset",
-                "sortable",
-                "timestampable"
-            ]
+            }
         },
         {
             "name": "jms/aop-bundle",
@@ -347,7 +357,7 @@
                 "symfony/framework-bundle": "2.*",
                 "jms/cg": "1.0.0"
             },
-            "time": "2012-01-02 02:50:26",
+            "time": "2012-01-01 15:50:26",
             "type": "symfony-bundle",
             "installation-source": "dist",
             "autoload": {
@@ -389,7 +399,7 @@
             "require": {
                 "php": ">=5.3.0"
             },
-            "time": "2012-01-02 02:40:52",
+            "time": "2012-01-01 15:40:52",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -433,7 +443,7 @@
                 "jms/aop-bundle": "1.0.*",
                 "jms/metadata": "1.1.*"
             },
-            "time": "2012-09-06 12:07:54",
+            "time": "2012-09-06 14:07:54",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -448,7 +458,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -476,7 +486,7 @@
             "require": {
                 "php": ">=5.3.0"
             },
-            "time": "2012-01-02 03:32:49",
+            "time": "2012-01-01 16:32:49",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -539,7 +549,7 @@
                 "symfony/form": "*",
                 "symfony/validator": "*"
             },
-            "time": "2012-09-06 12:12:03",
+            "time": "2012-09-06 14:12:03",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -614,15 +624,21 @@
             "authors": [
                 {
                     "name": "Christophe Coevoet",
-                    "email": "stof@notk.org"
+                    "email": "stof@notk.org",
+                    "homepage": null,
+                    "role": null
                 },
                 {
                     "name": "KnpLabs",
-                    "homepage": "http://knplabs.com"
+                    "email": null,
+                    "homepage": "http://knplabs.com",
+                    "role": null
                 },
                 {
                     "name": "Symfony Community",
-                    "homepage": "https://github.com/KnpLabs/KnpMenu/contributors"
+                    "email": null,
+                    "homepage": "https://github.com/KnpLabs/KnpMenu/contributors",
+                    "role": null
                 }
             ],
             "description": "An object oriented menu library",
@@ -651,7 +667,7 @@
                 "knplabs/knp-menu": "1.1.*",
                 "symfony/framework-bundle": ">=2.0,<2.2-dev"
             },
-            "time": "2012-05-17 11:56:49",
+            "time": "2012-05-16 01:56:49",
             "type": "symfony-bundle",
             "installation-source": "dist",
             "autoload": {
@@ -665,15 +681,21 @@
             "authors": [
                 {
                     "name": "Christophe Coevoet",
-                    "email": "stof@notk.org"
+                    "email": "stof@notk.org",
+                    "homepage": null,
+                    "role": null
                 },
                 {
                     "name": "Knplabs",
-                    "homepage": "http://knplabs.com"
+                    "email": null,
+                    "homepage": "http://knplabs.com",
+                    "role": null
                 },
                 {
                     "name": "Symfony Community",
-                    "homepage": "https://github.com/KnpLabs/KnpMenuBundle/contributors"
+                    "email": null,
+                    "homepage": "https://github.com/KnpLabs/KnpMenuBundle/contributors",
+                    "role": null
                 }
             ],
             "description": "This bundle provides an integration of the KnpMenu library",
@@ -688,12 +710,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/flojon/KoalaContentBundle",
-                "reference": "d97d67ad0d04dce03a5099bd259af89099198c86"
+                "reference": "54f81f2985d00a51c5f8c9e8fb07ac4c0f93ee75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/flojon/KoalaContentBundle/zipball/d97d67ad0d04dce03a5099bd259af89099198c86",
-                "reference": "d97d67ad0d04dce03a5099bd259af89099198c86",
+                "url": "https://github.com/flojon/KoalaContentBundle/zipball/54f81f2985d00a51c5f8c9e8fb07ac4c0f93ee75",
+                "reference": "54f81f2985d00a51c5f8c9e8fb07ac4c0f93ee75",
                 "shasum": ""
             },
             "require": {
@@ -702,7 +724,8 @@
                 "knplabs/knp-menu-bundle": "1.1.*",
                 "symfony-cmf/routing-extra-bundle": "dev-master",
                 "php": ">=5.3.3",
-                "symfony/framework-bundle": "2.1.*"
+                "symfony/framework-bundle": "2.1.*",
+                "friendsofsymfony/jsrouting-bundle": "dev-master"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "1.0.*",
@@ -716,7 +739,7 @@
                 "symfony/browser-kit": "2.1.*",
                 "symfony/css-selector": "2.1.*"
             },
-            "time": "1347095608",
+            "time": "1347229336",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -770,7 +793,7 @@
                 "leafo/scssphp": "Assetic provides the integration with the scssphp SCSS compiler",
                 "ptachoire/cssembed": "Assetic provides the integration with phpcssembed to embed data uris"
             },
-            "time": "2012-08-28 08:33:44",
+            "time": "2012-08-28 10:33:44",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -826,7 +849,7 @@
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server"
             },
-            "time": "2012-08-29 07:53:20",
+            "time": "2012-08-29 09:53:20",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -875,7 +898,7 @@
             "require": {
                 "symfony/framework-bundle": "2.1.*"
             },
-            "time": "2012-09-11 01:10:08",
+            "time": "2012-09-11 03:10:08",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -922,7 +945,7 @@
                 "symfony/framework-bundle": "2.1.*",
                 "doctrine/common": ">=2.1,<2.4-dev"
             },
-            "time": "2012-08-29 06:02:19",
+            "time": "2012-08-29 08:02:19",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -973,7 +996,7 @@
                 "doctrine/orm": ">=2.1,<2.4-dev",
                 "twig/twig": ">=1.8,<2.0-dev"
             },
-            "time": "2012-08-28 03:16:11",
+            "time": "2012-08-28 05:16:11",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1033,31 +1056,7 @@
                 "psr-0": {
                     "Stof\\DoctrineExtensionsBundle": ""
                 }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Christophe Coevoet",
-                    "email": "stof@notk.org"
-                }
-            ],
-            "description": "Integration of the gedmo/doctrine-extensions with Symfony2",
-            "homepage": "https://github.com/stof/StofDoctrineExtensionsBundle",
-            "keywords": [
-                "tree",
-                "behaviors",
-                "doctrine2",
-                "extensions",
-                "gedmo",
-                "sluggable",
-                "loggable",
-                "translatable",
-                "nestedset",
-                "sortable",
-                "timestampable"
-            ]
+            }
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -1076,7 +1075,7 @@
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "2012-07-13 12:46:37",
+            "time": "2012-07-13 14:46:37",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1115,12 +1114,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/Routing",
-                "reference": "5b56ecfaa74813ae88f175b42ee1b480f0e9e161"
+                "reference": "c1592dff3dbed15878a39dc7b8f4ba16e31d322f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony-cmf/Routing/zipball/5b56ecfaa74813ae88f175b42ee1b480f0e9e161",
-                "reference": "5b56ecfaa74813ae88f175b42ee1b480f0e9e161",
+                "url": "https://github.com/symfony-cmf/Routing/zipball/c1592dff3dbed15878a39dc7b8f4ba16e31d322f",
+                "reference": "c1592dff3dbed15878a39dc7b8f4ba16e31d322f",
                 "shasum": ""
             },
             "require": {
@@ -1128,7 +1127,7 @@
                 "symfony/routing": "2.1.*",
                 "symfony/http-kernel": "2.1.*"
             },
-            "time": "1347634254",
+            "time": "1347020679",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1140,22 +1139,7 @@
                 "psr-0": {
                     "Symfony\\Cmf\\Component\\Routing": ""
                 }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Symfony CMF Community",
-                    "homepage": "https://github.com/symfony-cmf/Routing/contributors"
-                }
-            ],
-            "description": "Extends the Symfony2 routing component for dynamic routes and chaining several routers",
-            "homepage": "http://cmf.symfony.com",
-            "keywords": [
-                "database",
-                "routing"
-            ]
+            }
         },
         {
             "name": "symfony-cmf/routing-extra-bundle",
@@ -1250,7 +1234,7 @@
             "suggest": {
                 "symfony/twig-bundle": "2.1.*"
             },
-            "time": "2012-08-28 06:22:44",
+            "time": "2012-08-28 08:22:44",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1307,7 +1291,7 @@
                 "symfony/yaml": "2.1.*",
                 "symfony/config": "2.1.*"
             },
-            "time": "2012-08-21 10:05:54",
+            "time": "2012-08-21 12:05:54",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1361,7 +1345,7 @@
                 "symfony/http-kernel": "2.1.*",
                 "symfony/config": "2.1.*"
             },
-            "time": "2012-08-28 06:21:09",
+            "time": "2012-08-28 08:21:09",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1450,7 +1434,7 @@
                 "propel/propel1": "dev-master",
                 "monolog/monolog": "dev-master"
             },
-            "time": "2012-09-20 03:13:00",
+            "time": "2012-09-20 05:13:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1500,7 +1484,7 @@
             "require": {
                 "twig/twig": "1.*"
             },
-            "time": "2012-08-28 11:04:23",
+            "time": "2012-08-28 13:04:23",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1547,7 +1531,7 @@
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "2012-08-25 13:32:57",
+            "time": "2012-08-25 15:32:57",
             "type": "library",
             "extra": {
                 "branch-alias": {
